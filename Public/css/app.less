@@ -1,0 +1,391 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+li {
+	list-style-type: none;
+}
+@blue: #1b3882;
+@qianbule: #2F64E8;
+@qianbai: #EDEDED;
+@border_color: #cbcbcb;
+.w1100 {
+	width: 1100px;
+	margin: 0 auto;
+}
+.w100 {
+	width: 100%;
+	background: @qianbai;
+	height: 40px;
+}
+
+
+header {
+	min-width: 1100px;
+	background: @blue;
+	a, span {
+		color: #fff;
+  }
+	.header-top {
+		position: relative;
+		
+		height: 80px;
+		padding-top: 10px;
+		.left {
+			width: 600px;
+			height: 80px;
+			float: left;
+		}
+		.right {
+			width: 400px;
+			height: 80px;
+			float: right;
+			i {
+				color: #fff;
+			}
+			.bottom {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				padding-bottom: 10px;
+				padding-right: 10px;
+			}
+			.tel {
+				font-size: 18px;
+				color: #CDDBF9
+			}
+			a,>span {
+				color: #fff;
+				float: right;
+				margin-right: 10px;
+			}
+		}
+	}
+	nav {
+		a {
+			color :#000;
+			display: block;
+		}
+		>ul {
+			>li {
+			
+				text-align: center;
+				font-size: 16px;
+				line-height: 40px;
+				border-right: 1px solid @border_color;
+				border-left: 1px solid @border_color;
+				height: 40px;
+				width: 150px;
+				float: left;
+			}
+		}
+	}
+}
+
+/*轮播图*/
+.header_banner_cont {
+	position: relative;
+	width: 1100px;
+	height: 420px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #666;
+	.banner ul {
+		list-style-type: none;
+	}
+	.banner {
+		width: 9999px;
+	}
+	.banner .img {
+
+	}
+	.banner .img li {
+		float: left;
+	}
+	.banner .img img {
+		width: 1100px;
+	}
+	/*小圆点*/
+	.num {
+		position: absolute;
+		bottom: 0;
+		left: 45%;
+	}
+	.num li {
+		border-radius: 50%;
+		border: 1px solid #fff;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		opacity: .7;
+		background: #fff;
+		cursor: pointer;
+	}
+	.num li:hover {
+		opacity: .5;
+	}
+	.num .on {
+		background: #0D2CE7;
+	}
+}
+
+.news_banner_cont {
+	position: relative;
+	width: 320px;
+	height: 190px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #666;
+	.banner ul {
+		list-style-type: none;
+	}
+	.banner {
+		width: 9999px;
+	}
+	.banner .img {
+
+	}
+	.banner .img li {
+		float: left;
+	}
+	.banner .img img {
+		width: 320px;
+		height: 190px;
+	}
+	/*小圆点*/
+	.num {
+		position: absolute;
+		bottom: 0;
+		left: 45%;
+	}
+	.num li {
+		border-radius: 50%;
+		border: 1px solid #fff;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		opacity: .7;
+		background: #fff;
+		cursor: pointer;
+	}
+	.num li:hover {
+		opacity: .5;
+	}
+	.num .on {
+		background: #0D2CE7;
+	}
+}
+
+.news_right_banner_cont {
+	position: relative;
+	width: 273px;
+	height: 195px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #666;
+	.banner ul {
+		list-style-type: none;
+	}
+	.banner {
+		width: 9999px;
+	}
+	.banner .img {
+
+	}
+	.banner .img li {
+		float: left;
+	}
+	.banner .img img {
+		width: 273px;
+		height: 195px;
+	}
+	/*小圆点*/
+	.num {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+	}
+	.num li {
+		border: 1px solid #fff;
+		float: left;
+		opacity: .7;
+		background: #666;
+		padding: 0px 5px;
+		cursor: pointer;
+		text-align: center;
+		span {
+			color: #fff;
+			font-size: 12px;
+		}
+	}
+	.num li:hover {
+		opacity: .5;
+	}
+	.num .on {
+		background: #0D2CE7;
+	}
+}
+
+
+
+.news, .yewu, .qiye {
+	margin-top: 10px;
+	height: 260px;
+	>.left {
+		width: 795px;
+		height: 250px;
+		border: 1px solid @border_color;
+		float: left;
+		>.top {
+			height: 38px;
+			width: 795px;
+			background: #E6E5E5;
+			span {
+				color: @qianbule;
+				margin-left: 10px;
+				line-height: 45px;
+				font-size: 16px;
+				background: #F6F6F6;
+				border-top: 1px solid @border_color;
+				border-left: 1px solid @border_color;
+				border-right: 1px solid @border_color;
+				padding: 5px 15px 5px 15px;
+
+			}
+			>a {
+				float: right;
+				line-height: 38px;
+				margin-right: 10px;
+			}
+			>a:hover {
+				color: @blue;
+			}
+		}
+		>.left {
+			width: 370px;
+			height: 250px;
+			float: left;
+			>.box {
+				margin-top: 10px;
+				margin-left: 10px;
+				width: 320px;
+				height: 190px;
+				border: 1px solid @border_color;
+			}
+		}
+		>.right {
+			width: 420px;
+			height: 250px;
+			float: right;
+			>.box {
+				margin-top: 10px;
+				margin-left: 10px;
+				width: 398px;
+				height: 190px;
+				border: 1px solid @border_color;
+				overflow: hidden;
+				>.pic_box {
+					position: relative;
+					float: left;
+					width:90px;
+					height:80px;
+					margin-left: 5px;
+					margin-top: 5px;
+					margin-right: 0px;
+					
+					border:1px solid @border_color;
+					.bottom {
+						position: absolute;
+						bottom: 0px;
+						left: 18px;
+					}
+				}
+				>.tab {
+					padding-top: 5px;
+					>a {
+						margin-left: 20px;
+						width: 30px;
+						
+						padding: 0px 5px;
+					}
+					.tab_active{
+						border: 1px solid @border_color;
+						border-bottom: 2px solid @blue;
+						color: @qianbule;
+
+					}
+					ul {
+						padding-left: 25px;
+						>li{
+							list-style-type: circle;
+							margin-top: 5px;
+							padding-bottom: 2px;
+							border-bottom:1px dashed @border_color;
+							>span {
+								float: right;
+								margin-right: 10px;
+								font-size: 12px;
+							}
+						}
+						a {
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+	>.right {
+		width: 295px;
+		height: 250px;
+		float: right;
+		border: 1px solid @border_color;
+		>.top {
+			height: 38px;
+			width: 295px;
+			background: #E6E5E5;
+			span {
+				color: @qianbule;
+				margin-left: 10px;
+				line-height: 45px;
+				font-size: 16px;
+				background: #F6F6F6;
+				border-top: 1px solid @border_color;
+				border-left: 1px solid @border_color;
+				border-right: 1px solid @border_color;
+				padding: 5px 15px 5px 15px;
+
+			}
+		}
+		.box {
+			margin-top: 10px;
+			margin-left: 10px;
+			width: 273px;
+			height: 190px;
+			overflow: hidden;
+			border: 1px solid @border_color;
+		}
+		
+	}
+}
+
+footer {
+	margin-top: 50px;
+	min-width: 1100px;
+	padding: 20px 0;
+	background: @border_color;
+	text-align: center;
+	span {
+		font-size: 12px;
+		display: block;
+		margin-top: 5px;
+	}
+}
