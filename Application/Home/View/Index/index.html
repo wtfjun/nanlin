@@ -191,31 +191,31 @@
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">工程建设</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">土砖工程</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">物管服务</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">货空服务</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">物流贸易</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">水电安装</div>
 				</div>
 				<div class="pic_box">
 					<div class="img"></div>
-					<div class="bottom">地产开发</div>
+					<div class="bottom">xxxx</div>
 				</div>
 			</div>
 		</div>
@@ -223,6 +223,18 @@
 	<div class="right">
 		<div class="top"><span>合作友好单位</span></div>
 		<div class="box">
+			<div class="hezuodanwei">
+				
+			</div>
+			<div class="hezuodanwei">
+				
+			</div>
+			<div class="hezuodanwei">
+				
+			</div>
+			<div class="hezuodanwei">
+				
+			</div>
 
 		</div>
 	</div>
@@ -238,12 +250,59 @@
 			<div class="box"></div>
 		</div>
 		<div class="right">
-			<div class="box"></div>
+			<div class="box">
+				<div class="tab">
+
+				  <a class="qyxingxiang tab_active" href="">企业形象</a>
+				  <a class="qylinian" href="">企业理念</a>
+				  <a class="qyhuodong" href="">企业活动</a>
+				  <div>
+				  	<div class="xingxiang">
+				  		<div class="xx_img"></div>
+				  		<div class="xx_span">　“CSCEC”中国建筑工程总公司企业标识，源自公司英文名称CHINA STATE CONSTRUCTION ENGINEERING CORPORATION缩写。
+　　标志整体造型方正、坚实，象征建筑的基石、诚信的品格以及国内外市场一体化的运营实力。</div>
+				  	</div>
+
+				  	<div class="linian" style="display: none">
+				  		<div class="ln_span">　“CSCEC”中国建筑工程总公司企业标识，源自公司英文名称CHINA STATE CONSTRUCTION ENGINEERING CORPORATION缩写。
+　　标志整体造型方正、坚实，象征建筑的基石、诚信的品格以及国内外市场一体化的运营实力。</div>
+				  	</div>
+
+				  	<ul class="huodong" style="display: none">
+							<li><a href="">
+								届工程造价系统职工羽毛球赛
+							</a><span>[2016-5-30]</span></li>
+							<li><a href="">
+								第五届工程造价系统职工羽毛球赛
+							</a></li>
+							<li><a href="">
+								第五届工程造价系统职工羽毛球赛
+							</a></li>
+							<li><a href="">
+								第五届工程造价系统职工羽毛球赛
+							</a></li>
+							<li><a href="">
+								第五届工程造价系统职工羽毛球赛
+							</a></li>
+							<li><a href="">
+								第五届工程造价系统职工羽毛球赛
+							</a></li>
+					</ul>
+				  </div>
+				  
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="right">
 		<div class="top"><span>相关链接</span></div>
-		<div class="box"></div>
+		<div class="box">
+			<div class="lianjie"></div>
+			<div class="lianjie"></div>
+			<div class="lianjie"></div>
+			<div class="lianjie"></div>
+			<div class="lianjie"></div>
+		</div>
 	</div>
 </div>
 
@@ -280,6 +339,22 @@
 		/* Stuff to do when the mouse enters the element */
 		$(this).addClass('tab_active').siblings().removeClass('tab_active');
 		$('.news .zixun').show().siblings().hide();
+	});
+  //企业tab
+	$('.qiye .tab .qyxingxiang').hover(function() {
+		/* Stuff to do when the mouse enters the element */
+		$(this).addClass('tab_active').siblings().removeClass('tab_active');
+		$('.qiye .xingxiang').show().siblings().hide();
+	});
+	$('.qiye .tab .qylinian').hover(function() {
+		/* Stuff to do when the mouse enters the element */
+		$(this).addClass('tab_active').siblings().removeClass('tab_active');
+		$('.qiye .linian').show().siblings().hide();
+	});
+	$('.qiye .tab .qyhuodong').hover(function() {
+		/* Stuff to do when the mouse enters the element */
+		$(this).addClass('tab_active').siblings().removeClass('tab_active');
+		$('.qiye .huodong').show().siblings().hide();
 	});
 </script>
 <script src="__PUBLIC__/js/lunbo.js"></script>
