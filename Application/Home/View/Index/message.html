@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{title}</title>
+	<link rel="stylesheet" href="__PUBLIC__/css/font-awesome.min.css">
+ 	<link rel="stylesheet/less" type="text/css" href="__PUBLIC__/css/app.less">
+ 	<script src="__PUBLIC__/js/less.min.js"></script>
+</head>
+<body>
+
+	<include file="header" />
+<div class="w1100">
+  <div class="erji_header">
+  	<img src="__PUBLIC__/img/neiye_about.jpg" alt="">
+  </div>
+  <div class="erji_main">
+  	
+    <include file="link_left" />
+
+  	<div class="right">
+  		<div class="top">
+  			<div class="left">
+  				<i class="fa fa-home fa-lg" style="color: blue;margin-right: 5px"></i><span>在线留言</span>
+  			</div>
+  			<div class="right">
+  				<span>首页：相关链接 > 在线留言</span>
+  			</div>
+  		</div>
+  		<div class="contain">
+      <div class="message">
+  			<form action="" method="post">
+          <input class="title" name="title" type="text" placeholder="留言标题"> 
+          
+          <textarea name="desc" id="" class="desc" cols="30" rows="10" placeholder="留言描述"></textarea>
+          
+          <input type="submit" class="submit" value="提交留言">   
+        </form>
+      </div>
+  		</div>
+  	</div>
+  </div>
+</div> 
+
+	<include file="footer" />
+
+</body>
+</html>

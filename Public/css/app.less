@@ -414,10 +414,19 @@ header {
 				margin: 5px 0px;
 			}
 			.lianjie {
+				text-align: center;
+				line-height: 50px;
 				width: 250px;
-				height: 30px;
-				background: #555;
-				margin: 5px auto;
+				height: 50px;
+				background: @border_color;
+				margin: 10px auto;
+				a {
+					display: block;
+				}
+				a:hover {
+					background: @qianbule;
+					color: #fff;
+				}
 			}
 		}
 		
@@ -481,6 +490,21 @@ header {
 		p {
 			color: #666;
 			line-height: 24px;
+		}
+		.message {
+
+			.title,.desc, .submit {
+				padding: 5px;
+				display: block;
+				margin-bottom: 14px;
+				margin: 10px auto;
+				
+			}
+			.title,.desc {
+				width: 500px;
+			}
+		
+
 		}
 		>.top {
 			

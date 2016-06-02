@@ -304,11 +304,16 @@
 	<div class="right">
 		<div class="top"><span>相关链接</span></div>
 		<div class="box">
-			<div class="lianjie"></div>
-			<div class="lianjie"></div>
-			<div class="lianjie"></div>
-			<div class="lianjie"></div>
-			<div class="lianjie"></div>
+			<div class="lianjie">
+				<a href="/nanlin/index.php/Home/Index/message">在线留言</a>
+			</div>
+			<div class="lianjie">
+				<a href="">人才招聘</a>
+			</div>
+			<div class="lianjie">
+				<a href="/nanlin/index.php/Home/Index/download">文件下载</a>
+			</div>
+			
 		</div>
 	</div>
 </div>
