@@ -8,10 +8,11 @@
  	 <script src="/nanlin/Public/js/less.min.js"></script>
   </head>
   <body>
- 		<header>
+ 		
+  <header>
  			<div class="header-top w1100">
  				<div class="left">
- 					<!-- <img src="/nanlin/Public/img/home_top.jpg" alt=""> -->
+ 					<img src="/nanlin/Public/img/logo.png" alt="">
  				</div>
  				<div class="right">
  					<a href="">设为首页</a>
@@ -28,17 +29,18 @@
  			<div class="w100">
  			<nav class="w1100">
  				<ul>
- 					<li><a href="">首页</a></li>
- 					<li><a href="">公司概况</a></li>
- 					<li><a href="">企业文化</a></li>
- 					<li><a href="">新闻中心</a></li>
- 					<li><a href="">业务领域</a></li>
- 					<li><a href="">人力资源</a></li>
- 					<li><a href="">集团公司</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/index">首页</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/about">公司概况</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/culture">企业文化</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/news">新闻中心</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/area">业务领域</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/resouce">人力资源</a></li>
+ 					<li><a href="/nanlin/index.php/Home/Index/group">集团公司</a></li>
  				</ul>
  			</nav>
  			</div>
  		</header>
+
  	<div class="header_banner_cont">
 	<div class="banner">
 		<ul class="img">
@@ -181,7 +183,12 @@
 		<a href="">more >></a>
 	</div>
 		<div class="left">
-			<div class="box"></div>
+			<div class="box">
+				<div class="home_img">
+					<img src="/nanlin/Public/img/ditu_home.jpg" alt="" style="float: left;margin-right: 20px;">
+					<p>中建二局第一建筑工程有限公司，1954年组建，2003年4月经资产重组，改制为中国建筑第二工程局有限公司控股、香港保华建筑集团参股的合资公司。公司具有房屋建筑、机电安装工程中建二局第一建筑工程有限公司，1954年组建，2003年4月经资产重组，改制为中国建筑第二工程局有限公司控股、香港保华建筑集团参股的合资公司。公司具有房屋建筑、机电安装工程</p>
+				</div>
+			</div>
 		</div>
 		<div class="right">
 			<div class="box">
@@ -323,6 +330,7 @@
 		技术支持：诚也科技
 	</span>
 </footer>
+
 <script src="/nanlin/Public/js/jquery.min.js"></script>
 <script>
 	$('.news .tab .dt').hover(function() {
